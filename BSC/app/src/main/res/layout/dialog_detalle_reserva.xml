@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="10dp"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Detalles de la reserva"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:layout_marginRight="0dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/ic_round"
+                android:gravity="center"
+                android:text="X"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvDetalleReserva"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@color/colorWhite"--><!--android:paddingVertical="15dp"--><!--android:paddingHorizontal="15dp"--><!--android:orientation="vertical"--><!--android:elevation="@dimen/dialog_elevation">-->
+
+    <!--<TextView--><!--android:id="@+id/titulo"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:textAppearance="?android:attr/textAppearanceLarge"--><!--android:layout_weight="0"--><!--android:text="Detalles"--><!--android:textColor="@android:color/darker_gray"--><!--android:layout_marginBottom="10dp"/>-->
+
+    <!--<ScrollView--><!--android:id="@+id/cuerpo"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_weight="1">-->
+
+    <!--<android.support.v7.widget.RecyclerView--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:id="@+id/rvDetalleReserva">--><!--</android.support.v7.widget.RecyclerView>--><!--</ScrollView>-->
+
+    <!--<LinearLayout--><!--android:id="@+id/botonera"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="right"--><!--android:gravity="right">--><!--<Button--><!--android:id="@+id/cancelar"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginRight="10dp"--><!--android:layout_marginBottom="5dp"--><!--android:layout_marginTop="5dp"--><!--android:text="CERRAR"--><!--android:textColor="@color/colorPrimary"--><!--android:textStyle="bold"--><!--android:background="@android:color/transparent"/>--><!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/frag_padding">
+
+    <Spinner
+        android:id="@+id/spDias"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMisClases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spDias"/>
+
+</RelativeLayout>

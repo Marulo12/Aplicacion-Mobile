@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="radius">2dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="appBar_elevation">4dp</dimen>
+    <dimen name="NavDrawer_elevation">4dp</dimen>
+    <dimen name="raisedButton_elevation">2dp</dimen>
+    <dimen name="menu_elevation">8dp</dimen>
+    <dimen name="sub_menu_elevation">9dp</dimen>
+    <dimen name="dialog_elevation">10dp</dimen>
+    <dimen name="rv_padding">15dp</dimen>
+    <dimen name="frag_padding">15dp</dimen>
+    <dimen name="paddingHorizontal">8dp</dimen>
+
+
+</resources>

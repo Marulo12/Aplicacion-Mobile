@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Reservas">
+            <menu>
+                <item
+                    android:id="@+id/nva_reserva"
+                    android:icon="@drawable/ic_calendar_plus"
+                    android:title="Nueva Reserva" />
+                <item
+                    android:id="@+id/mis_reservas"
+                    android:icon="@drawable/ic_calendar_text"
+                    android:title="Mis Reservas" />
+            </menu>
+        </item>
+        <!--<item android:title="Torneos">-->
+            <!--<menu>-->
+                <!--<item-->
+                    <!--android:id="@+id/notas"-->
+                    <!--android:icon="@drawable/ic_trophy"-->
+                    <!--android:title="Consulta" />-->
+            <!--</menu>-->
+        <!--</item>-->
+
+        <item android:title="Clases Particulares">
+            <menu>
+                <item
+                    android:id="@+id/mis_clases"
+                    android:icon="@drawable/ic_code_brackets"
+                    android:title="Mis Clases" />
+            </menu>
+        </item>
+        <item android:title="Mi Cuenta">
+            <menu>
+                <item
+                    android:id="@+id/mi_perfil"
+                    android:icon="@drawable/ic_account_box"
+                    android:title="Mi Perfil" />
+                <item
+                    android:id="@+id/change_pwd"
+                    android:icon="@drawable/ic_account_key_dl"
+                    android:title="Cambiar Contraseña" />
+                <item
+                    android:id="@+id/logOut"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Cerrar Sesión" />
+            </menu>
+        </item>
+    </group>
+</menu>
